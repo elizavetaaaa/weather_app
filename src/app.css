@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.weather{
+    height: 100vh;
+    /*background-color: lightblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: url("./img/weather.jpg") center/cover, no-repeat;*/
+
+}
+
+/*.weather:before{*/
+/*    content: '';*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background-color: #00000060;*/
+/*}*/
+
+
+.block{
+    /*height: 100px;*/
+    width: 380px;
+    background-color: #bbcdf290;
+    border-radius: 20px;
+    padding: 30px 20px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.form_input{
+    height: 40px;
+    width: calc(60% - 5px);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form_btn{
+    height: 40px;
+    width: calc(40% - 5px);
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background: linear-gradient(70deg, #aea4e3, #5611ec);
+    color: white;
+}
+
+.weather_info{
+    background-color: #8970c5;
+    padding: 20px 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: .8s;
+}
+
+.weather_info:hover{
+    background-color: #db709b;
+    transition: .8s;
+}
+
+.weather_top{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: gray;*/
+
+}
+
+.weather_top_f{
+    display: flex;
+    flex-direction: column;
+}
+
+.weather_top_s{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    font-weight: lighter;
+}
+span{
+    float: right;
+     font-size: 20px;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.img{
+    /*margin-top: -10px;*/
+}
+.description{
+    /*margin-top: -30px;*/
+}
+
+.weather_bottom{
+    margin-top: 30px;
+}
+
+.feels_like{
+    font-style: italic;
+}
+
